@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: text-generation-inference
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rhoai-tenant/kserve/text-generation-inference@sha256:d88c586c1836be6da04bc49496aacf2a91f34515963feb0dc7e01fe17698cf40
         imagePullPolicy: Always
         name: container-image
         ports:
