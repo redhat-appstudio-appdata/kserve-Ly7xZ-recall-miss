@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: kserve-router
     app.kubernetes.io/part-of: kserve
-  name: kserve-routerkokm
+  name: kserve-routerbm6n
 spec:
   port:
     targetPort: 8080
