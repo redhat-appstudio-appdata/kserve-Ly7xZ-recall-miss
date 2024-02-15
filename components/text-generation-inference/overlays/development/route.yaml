@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: text-generation-inference
     app.kubernetes.io/part-of: kserve
-  name: text-generation-inferenceolbd
+  name: text-generation-inferencejcbe
 spec:
   port:
     targetPort: 8080
