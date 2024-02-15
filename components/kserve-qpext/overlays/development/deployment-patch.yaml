@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/dchouras/kserve-qpext@sha256:d94f274d8ae65a333cbf6f28a4b122e32b327dbd97f7384398a63fc9b595a3a2
+      - image: quay.io/dchouras/kserve-qpext@sha256:4dc7e9990f115db970b1575ec0a3d6910c9474412618076e0846f7a07b03cbd6
         name: container-image
         resources: {}
 status: {}
