@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: kserve-alibi-explainer
     app.kubernetes.io/part-of: kserve
-  name: kserve-alibi-explainergs2m
+  name: kserve-alibi-explainer60pp
 spec:
   port:
     targetPort: 8080
