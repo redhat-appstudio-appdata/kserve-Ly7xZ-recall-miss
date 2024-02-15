@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: kserve-storage-initializer
     app.kubernetes.io/part-of: kserve
-  name: kserve-storage-initializes4pt
+  name: kserve-storage-initializekado
 spec:
   port:
     targetPort: 8080
