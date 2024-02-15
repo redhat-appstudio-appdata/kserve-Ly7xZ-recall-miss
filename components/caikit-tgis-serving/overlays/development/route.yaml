@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: caikit-tgis-serving
     app.kubernetes.io/part-of: kserve
-  name: caikit-tgis-servingwmvs
+  name: caikit-tgis-servinglwch
 spec:
   port:
     targetPort: 8080
