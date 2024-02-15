@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: kserve-agent
     app.kubernetes.io/part-of: kserve
-  name: kserve-agentyqjv
+  name: kserve-agentoxv0
 spec:
   port:
     targetPort: 8080
