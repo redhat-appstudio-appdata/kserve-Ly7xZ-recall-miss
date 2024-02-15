@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: kserve-art-explainer
     app.kubernetes.io/part-of: kserve
-  name: kserve-art-explainerfuov
+  name: kserve-art-explainer86ni
 spec:
   port:
     targetPort: 8080
