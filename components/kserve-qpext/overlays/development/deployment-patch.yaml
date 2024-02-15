@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: kserve-qpext
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/dchouras/kserve-qpext@sha256:7c8c8bebf2489c9a31bacad34f73d821991df26bbc88da9a4e62fd1ade14de4d
+      - image: quay.io/dchouras/kserve-qpext@sha256:d94f274d8ae65a333cbf6f28a4b122e32b327dbd97f7384398a63fc9b595a3a2
         name: container-image
         resources: {}
 status: {}

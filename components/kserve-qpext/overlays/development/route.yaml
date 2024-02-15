@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: kserve-qpext
     app.kubernetes.io/part-of: kserve
-  name: kserve-qpextvtzs
+  name: kserve-qpexttwly
 spec:
   port:
     targetPort: 8080
