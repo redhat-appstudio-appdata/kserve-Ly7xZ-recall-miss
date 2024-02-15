@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: kserve-controller
     app.kubernetes.io/part-of: kserve
-  name: kserve-controllerjstn
+  name: kserve-controllerhjkz
 spec:
   port:
     targetPort: 8080
