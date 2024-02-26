@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: kserve-qpext-rhoai-rhtap
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/dchouras/kserve-qpext@sha256:d3c092486c84ced0ca2adc18545adb8d4b9086d3056d3ee6d3a46e53c994022a
+        name: container-image
+        resources: {}
+status: {}
