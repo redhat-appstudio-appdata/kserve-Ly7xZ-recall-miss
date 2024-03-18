@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhoai-tenant/kserve/kserve-agent-rhtap@sha256:9e54efe7a0e1e7676a7d80e6bf6bd8f877ff890136e4fffb10ebf2617b1d0801
+      - image: quay.io/redhat-user-workloads/rhoai-tenant/kserve/kserve-agent-rhtap@sha256:b189208d512c1f11a291dbf4301fb0c7a137e81a1122e2926b32744e5e469c14
         name: container-image
         resources: {}
 status: {}
